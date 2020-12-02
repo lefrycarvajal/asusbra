@@ -297,7 +297,11 @@ font-size: 5rem;
 	
 }
 
-
+.contenedor1{
+	width: 80%;
+	display: block;
+	margin: auto;
+}
 
 .historia{
 	padding-top: 30px;

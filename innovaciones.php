@@ -12,11 +12,11 @@ include_once("header.php")
          <a class="icono" href="#"> <i class="fa fa-bars"></i> </a>
          <div class="menu_links">
             <ul>
-               <li><a href="index.html">INICIO</a></li>
-               <li><a href="productos.html">PRODUCTOS</a></li>
-               <li><a class="activado" href="#">INOVACION</a></li>
-               <li><a href="donde_comprar.html">DONDE COMPRAR</a></li>
-               <li><a href="sobre_nosotros.html">SOBRE NOSOTROS</a></li>
+               <li><a class="activado" href="#">INICIO</a></li>
+               <li><a href="productos.php">PRODUCTOS</a></li>
+               <li><a href="innovaciones.php">INOVACION</a></li>
+               <li><a href="donde_comprar.php">DONDE COMPRAR</a></li>
+               <li><a href="sobre_nosotros.php">SOBRE NOSOTROS</a></li>
             </ul>
          </div>
       </nav>

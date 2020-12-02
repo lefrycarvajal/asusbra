@@ -12,10 +12,10 @@ include_once("header.php")
          <div class="menu_links">
             <ul>
                <li><a class="activado" href="#">INICIO</a></li>
-               <li><a href="productos.html">PRODUCTOS</a></li>
-               <li><a href="innovaciones.html">INOVACION</a></li>
-               <li><a href="donde_comprar.html">DONDE COMPRAR</a></li>
-               <li><a href="sobre_nosotros.html">SOBRE NOSOTROS</a></li>
+               <li><a href="productos.php">PRODUCTOS</a></li>
+               <li><a href="innovaciones.php">INOVACION</a></li>
+               <li><a href="donde_comprar.php">DONDE COMPRAR</a></li>
+               <li><a href="sobre_nosotros.php">SOBRE NOSOTROS</a></li>
             </ul>
          </div>
       </nav>
