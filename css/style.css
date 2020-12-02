@@ -1,0 +1,392 @@
+*{ 
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+
+body{background:#0A0A0A}
+/*home seccion*/
+table {
+	border-collapse: collapse;
+	width: 100%;
+	margin: auto;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	border: rgba(0,0,0,0.00);
+	text-align: center;
+}
+table img {
+	width: 100%;
+	height: auto;
+	padding: 5px;
+	margin: auto;
+	
+}
+.osc{
+	color: white;
+	font-weight: bold}
+
+
+
+.btn {
+	background-color:#B80011;
+	border-radius:6px;
+	
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	margin-left: 30px;
+	margin-bottom: 50px;
+}
+.btn:hover {
+	background-color:#730000;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+
+/*home seccion*/
+
+/*PRODUCTOS*/
+
+.texto_coleccion{color: rgba(237,32,36,1.00);
+text-align: center;
+font-weight: 800;
+font-size: 4vw;
+margin-top: 4rem;}
+.container {
+	
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+	margin-top: 4rem;
+	
+}
+
+.b-select{
+	font-weight: 500;
+	width: 200px;
+	height:40px;
+	border-radius: 10px;
+	color:rgb(255, 0, 88);
+	
+	
+}
+.b-select option{font-weight: 700;
+}
+
+.boxes {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0 -10px;
+}
+
+.boxes li {
+  width: 25%;
+  padding: 0 10px ;
+  margin-top: 20px;
+  box-sizing: border-box;
+}
+
+.boxes li .caja{
+  display: block;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+}
+
+
+.boxes .details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.boxes .details span {
+  font-size: .8rem;
+	color: white;
+	text-align: center;
+	font-weight: 700;
+}
+
+.boxes .details .length {
+  margin-right: 10px;
+}
+
+.boxes .details span:before {
+  padding-right: 3px;
+}
+
+.caja img{width:18vw; }
+
+/*PRODUCTOS*/
+
+/*donde comprar*/
+.header-image {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/about_01.jpg");
+		background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	width: 100%;
+	
+	
+	
+}
+.header-image h1 {
+	text-align: center;
+	color: #FFFFFF;
+	padding: 150px;
+	font-size: 3em;
+	margin: 0;
+}
+
+h3 { 
+color: rgba(237,32,36,1.00);
+text-align: center;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	font-size: 2em;
+}
+
+table {margin: auto;
+	text-align: center;
+	color: gray;
+	margin-bottom: 70px;
+	margin-top: 70px;
+	border: none rgba(0,0,0,0.00);
+}
+td h3{
+	font-size: 1.7em;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/*donde comprar*/
+
+/*innovaciones*/
+
+.header-image1 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/zephyrus.jpg");
+		background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	width: 100%;
+	
+	
+	
+}
+.header-image1 h1 {
+	text-align: center;
+	color: #FFFFFF;
+	padding: 150px;
+	font-size: 3em;
+	margin: 0;
+}
+
+.header-image2 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/aura.jpg");
+		background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	width: 100%;
+	
+	
+	
+}
+.header-image2 h1 {
+	text-align: center;
+	color: #FFFFFF;
+	padding: 150px;
+	font-size: 3em;
+	margin: 0;
+}
+
+.header-image3 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/fps.jpg");
+		background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	width: 100%;
+	
+	
+	
+}
+.header-image3 h1 {
+	text-align: center;
+	color: #FFFFFF;
+	padding: 150px;
+	font-size: 3em;
+	margin: 0;
+}
+
+
+.header-image4 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/armorycreate1.png");
+		background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	width: 100%;
+	
+	
+	
+}
+.header-image4 h1 {
+	text-align: center;
+	color: #FFFFFF;
+	padding: 150px;
+	font-size: 3em;
+	margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*sobre nostros seccion*/
+
+.banner{
+background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),url("../img/about_03.jpg");
+	width: 100%;
+	height: 70vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.banner_contenido{
+	color:white;
+	width:100%;
+	padding-top: 2rem;
+	
+}
+	
+
+.banner_contenido h5{
+font-size: 5rem;
+	margin-top: 200px;
+	font-weight: 700;
+	color: rgba(237,32,36,1.00);
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	margin-bottom: 2.5rem;
+	
+}
+
+
+
+.historia{
+	padding-top: 30px;
+	text-align: center;
+	color:rgba(237,32,36,1.00);
+	font-weight: 700;
+	
+	
+}
+.table{margin-bottom:60px;
+padding: 20px;
+}
+
+.seccion01 p{
+	width:700px;
+	height: 300px;
+	font-size: 1.2rem;
+	font-weight: 400;
+	color:white;
+	letter-spacing: 1px;
+	margin-bottom: 2.5rem;
+	;
+}
+.store{
+	padding-top: 30px;
+	width:50vw;
+margin-right: 4rem;}
+
+
+
+
+@media screen and (max-width:1000px) {
+	.store{width:700px;
+		background:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5));
+	margin-right: 4rem;
+	margin: auto;}
+	
+	
+
+	.img-historia img{
+		margin: auto;
+		width: 70%;
+		
+	}
+	.seccion01 p{
+		position: relative;
+		color: black;
+		max-width: 70%;
+		margin: auto;
+		font-size: 1rem;
+		padding: 5rem 1rem;	
+}
+
+	.banner_contenido h5{
+		font-size: 4rem;
+		padding: 5rem 1rem;	
+}	
+}
+
+@media screen and (max-width:767px) {
+	.store{width:400px}
+	.seccion01 p{
+		max-width:100%;
+		padding: 2rem;
+		top:initial;
+		bottom: 0;
+		transform: initial;
+		
+	}
+		}
+	.banner_contenido h5{
+		font-size: 3rem;
+	}
+	
+	.seccion01 p{
+		font-size: 1.4rem;
+
+}
+}
+
+
+
+/*sobre nostros seccion*/
+
+
+
+
+
+
+
+
+
