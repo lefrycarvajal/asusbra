@@ -5,7 +5,9 @@
 }
 
 
-body{background:#0A0A0A}
+body{
+	background:#141414 !important;
+}
 /*home seccion*/
 table {
 	border-collapse: collapse;
